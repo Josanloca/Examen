@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+header{
+    box-shadow: 0 5px 0 0  rgb(152, 152, 153);
+    box-shadow: green;
+}
+h2{
+    padding: 30px;
+}
+
+.mitad{
+    width: 50%;
+}
+
+label{
+    font-weight: bold ;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+}
+
+form{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+button{
+    background-color: #0000ff;
+    color: white;
+    font-weight: bold ;
+}
+
+.lal{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.confir{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+}
+
+.row:after {
+    content: "";
+    display:table-row;
+    clear: both;
+  }
+
+.columna{
+    float: left;
+    margin-top: 8px;
+    margin-right: 2px;
+}
+.column{
+    float: left;
+    width: 80%;
+}
+.centrar{
+    display: block;
+    margin-left: 50px;
+    padding: 40px
+}
+
+.obligados{
+    margin-left: 11px;
+    margin-bottom: -5px;
+}
+
+footer{
+    color: white;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #0000ff;
+}
+.footerP{
+    padding-left: 100px;
+    font-size: 10px;
+}
+
+legend{
+    margin-left: 10px;
+    background-color: #0000ff;
+    color: white;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ejerc2.css">
+
+</head>
+<header>
+    <h2>petinder</h2>
+</header>
+<body>
+    
+    <h1>Hazte socio</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, labore. Cupiditate nemo iste quaerat autem sit? Laudantium explicabo ducimus quae ab magni voluptates. Eveniet, accusamus obcaecati? Sed ut cum quam?</p>
+    <div class="mitad">
+        <fieldset>
+            <legend> Datos personales</legend>
+            <form method="post" action="index.html">
+                <div class="lal">
+                    <label for="Nombre" class="lal">Nombre * </label><br>
+                    <input type="text" id="nombre" placeholder="Nombre" required ><br>
+                </div>
+                <div class="lal">
+                    <label for="Apellido">Apellido * </label><br>
+                    <input type="text" id="apellido" placeholder="Apellidos" required ><br>
+                </div>  
+                <div class="lal">
+                    <label for="Correo">Correo electronico * </label><br>
+                    <input type="email" id="Correo" placeholder="Correo Electronico" required ><br>
+                </div>
+                <div class="lal">
+                    <label for="DNI">DNI * </label><br>
+                    <input type="text" id="DNI" pattern="[0-9]{8}[a-zA-Z]{1}" maxlength="9" placeholder="DNI" title="Tiene que ser 8 numero y una vocal" required ><br>
+                </div>
+                <div class="lal">
+                    <label for="Fecha">Correo electronico * </label><br>
+                    <input type="date" id="Fecha" placeholder="dd/mm/aaaa" required ><br>
+                </div>
+            </form>
+        </fieldset>
+        <div class="centrar confir">
+            <p class=" obligados">* todos los campos marcados son obligatorios</p>
+            <div class="row confir">
+                <div class="columna"><input type="checkbox" name="Confirmacion" id="Confirmacion"></div>
+                <div class="column"><p>He leido y acepto la politica de privacidad y las condiciones de uso</p></div>
+            </div>
+            <div >
+                <p style="visibility: hidden;">f</p>
+            </div>
+            <button type="submit">Enviar</button>
+        </div>
+        
+    </div>
+
+
+
+</body>
+<footer>
+    <div class="footerP">
+        <p> 2021 petinder - José Antonio López Carrillo</p>
+    </div>
+</footer>
+</html>
